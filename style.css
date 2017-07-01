@@ -1,0 +1,261 @@
+img.logo {
+  display: block;
+  margin: 20px auto;
+  height: 12%;
+  width: 12%;
+  padding: 0;
+}
+
+.jumbotron {
+  padding-top: 0;
+  margin-bottom: 10px;
+  background-image: url("images/kids2.jpg");
+  background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+  min-height: 300px;
+}
+
+
+a.logo-txt {
+  text-align: center;
+  display: block;
+  font-size: 28px;
+  color: gray;
+}
+
+a.logo-txt:hover{
+  text-decoration: none;
+}
+
+nav.navbar.navbar-default{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  background-color: #8863d1;
+  font-size: 18px;
+  padding-top: 0;
+}
+
+div#header-ribbon.container-fluid{
+  padding-bottom: 0;
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: #b59ee2;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #b59ee2;
+}
+.navbar-default .navbar-nav>li{
+  display: inline-block;
+  float: none;
+}
+
+.navbar-default .navbar-nav>li>a{
+  color: white;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+  text-decoration: none;
+  background-color: #b59ee2;
+
+}
+
+.navbar-default .navbar-nav>li>a:focus{
+  background-color: #b59ee2;
+}
+
+.navbar-default .navbar-nav>.active>a:hover{
+  background-color: #b59ee2;
+
+}
+
+.navbar-default .navbar-nav>.active>a{
+  background-color: #b59ee2;
+  color: black;
+}
+
+ul.nav.navbar-nav {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+  }
+
+.ribbon {
+ font-size: 30px !important;
+ /* This ribbon is based on a 16px font side and a 24px vertical rhythm. I've used em's to position each element for scalability.
+  If you want to use a different font size you may have to play with the position of the ribbon elements */
+
+ width: 70%;
+
+ position: relative;
+ background: #88B235;
+ color: #fff;
+ text-align: center;
+ padding: 0.3em 0.5em; /* Adjust to suit */
+ margin: 0 auto 1em; /*Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon
+                      'graphics' take up 24px themselves so we double it. */
+}
+.ribbon:before, .ribbon:after {
+ content: "";
+ position: absolute;
+ display: block;
+ bottom: -0.7em;
+ border: 1em solid #799e2f;
+ z-index: -1;
+}
+.ribbon:before {
+ left: -1.8em;
+ border-right-width: 1.5em;
+ border-left-color: transparent;
+}
+.ribbon:after {
+ right: -1.8em;
+ border-left-width: 1.5em;
+ border-right-color: transparent;
+}
+.ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+ content: "";
+ position: absolute;
+ display: block;
+ border-style: solid;
+ border-color: #5b7723 transparent transparent transparent;
+ bottom: -0.7em;
+}
+.ribbon .ribbon-content:before {
+ left: 0;
+ border-width: 0.7em 0 0 0.7em;
+}
+.ribbon .ribbon-content:after {
+ right: 0;
+ border-width: 0.7em 0.7em 0 0;
+}
+
+
+/******************************* BOXES *********************************/
+
+/*
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}*/
+
+p {
+    font-size: 1.25em;
+    line-height: 1.6;
+    color: #000;
+}
+
+hr {
+    max-width: 400px;
+    border-color: #999999;
+}
+
+
+.img-full {
+    /*height: 400px;*/
+    width: 100%;
+    overflow: hidden;
+    max-height: 400px;
+    float: none;
+}
+
+.greet,
+.brand-name {
+    text-transform: capitalize;
+}
+
+.greet {
+  margin: 15px 0;
+}
+
+h1.brand-name {
+  padding-top: 35px;
+  margin: 0;
+  font-size: 25px;
+}
+
+.tagline-divider {
+    margin: 15px auto 3px;
+    max-width: 250px;
+    border-color: #999999;
+}
+
+.box {
+    margin-bottom: 20px;
+    padding: 30px 15px;
+    background: #F9BF51;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#slides{
+  margin: auto;
+  float: none;
+}
+
+.intro-text {
+  margin-top: 25px;
+  font-size: 1.25em;
+  font-weight: 400;
+
+}
+
+.img-border {
+    float: none;
+    margin: 0 auto 0;
+    border: #999999 solid 1px;
+}
+
+
+@media screen and (min-width:768px) {
+    .brand {
+        display: inherit;
+        margin: 0;
+        padding: 30px 0 10px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 5em;
+        font-weight: 700;
+        line-height: normal;
+        color: #fff;
+    }
+
+    .top-divider {
+        margin-top: 0;
+    }
+
+}
+
+@media screen and (min-width:1200px) {
+    .box:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
+
+/****************************** FOOTER ************************************/
+footer{
+  background-color: red;
+}
