@@ -256,6 +256,32 @@ div#slides{
 }
 
 /****************************** FOOTER ************************************/
-footer{
-  background-color: red;
+.footer-distributed{
+  background-color: #8863d1;
+  height: 200px;
+  margin-top: 70px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.footer-left{
+  width: 20%;
+  height: inherit;
+  }
+
+img.footer-logo{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: 100px;
+  width: auto;
+}
+div.logo-div{
+  padding-top: 25px;
+
 }
