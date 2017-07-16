@@ -381,6 +381,7 @@ div.footer-right a{
     .footer-distributed .footer-right{
         display: block;
         width: 100%;
+        margin-top: 30px;
         margin-bottom: 40px;
         margin-left: 30%;
         margin-right: auto;
@@ -408,5 +409,18 @@ i#footer-icons{
   vertical-align: middle;
   /*background-color: #8863d1; -no background*/
   /* 474b4e - lighter gray*/
+}
 
+
+/******************************** CONTACT PAGE *****************************************/
+div.col-md-12.main{
+  margin-bottom: 40px;
+  margin-top: 40px;
+  /*background-color: blue;*/
+}
+iframe.map{
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+  margin-bottom: 80px;
 }
