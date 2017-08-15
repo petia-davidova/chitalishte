@@ -572,8 +572,8 @@ div.middle a{
     padding: 4px;
     margin-bottom: 20px;
     line-height: 1.42857143;
-    background-color: #292c2f;
-    border: 1px solid #5a5b5c;
+    background-color: #b59ee2;
+    border: 1px solid #8863d1;
     border-radius: 4px;
     -webkit-transition: border .1s ease-in-out;
     -o-transition: border .2s ease-in-out;
@@ -581,5 +581,9 @@ div.middle a{
 }
 
 a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
-    border-color: #f3ac7e;
+    border: 3.2px solid #8863d1;
+}
+
+a.thumbnail{
+  color: red;
 }
