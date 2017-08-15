@@ -29,6 +29,19 @@ a.logo-txt:hover{
   text-decoration: none;
 }
 
+.navbar-default .navbar-nav>li>a:hover
+{
+  text-align: center;
+  border-left: 4px solid #9f82da;
+  border-right: 4px solid #9f82da;
+  color: #33383b;
+  font-weight: 300;
+  transition: all 0.20s linear 0s;
+  -o-transition: all 0.20s linear 0s;
+  -ms-transition: all 0.20s linear 0s;
+  -moz-transition: all 0.20s linear 0s;
+  -webkit-transition: all 0.20s linear 0s;
+}
 nav.navbar.navbar-default{
   margin-left: auto;
   margin-right: auto;
@@ -83,7 +96,7 @@ div#header-ribbon.container-fluid{
 
 .navbar-default .navbar-nav>.active>a{
   background-color: #b59ee2;
-  color: black;
+  color: #33383b;
 }
 
 ul.nav.navbar-nav {
@@ -369,6 +382,39 @@ div.footer-right a{
     margin-bottom: 5px;
 }*/
 
+div.footer-right a:hover{
+  color: #33383b;
+  text-decoration: none;
+  transition: all 0.20s linear 0s;
+  -o-transition: all 0.20s linear 0s;
+  -ms-transition: all 0.20s linear 0s;
+  -moz-transition: all 0.20s linear 0s;
+  -webkit-transition: all 0.20s linear 0s;
+}
+
+i#footer-icons:hover{
+  cursor: pointer;
+  background-color: #9f82da;
+  color: white;
+  transition: all 0.20s linear 0s;
+  -o-transition: all 0.20s linear 0s;
+  -ms-transition: all 0.20s linear 0s;
+  -moz-transition: all 0.20s linear 0s;
+  -webkit-transition: all 0.20s linear 0s;
+}
+
+i#footer-icons.fa.fa-globe{
+ font-size:47px;
+ background-color: #8863d1;
+ color: #33383b;
+ }
+
+i#footer-icons.fa.fa-globe:hover{
+  background-color: white;
+  color: #9f82da;
+}
+
+
 /* Make footer responsive */
 @media (max-width: 880px) {
 
@@ -392,8 +438,21 @@ div.footer-right a{
         margin-left: 0;
     }
 
+
+
 }
 
+@media (max-width: 600px){
+  div.col-md-12.main{
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 30%;
+    margin-right: auto;
+    text-align: left;
+  }
+}
 /* ICONS */
 i#footer-icons{
   display: inline-block;
@@ -413,14 +472,114 @@ i#footer-icons{
 
 
 /******************************** CONTACT PAGE *****************************************/
-div.col-md-12.main{
+/*div.col-md-12.main{
   margin-bottom: 40px;
   margin-top: 40px;
-  /*background-color: blue;*/
+  background-color: blue;
+  width: 80%;
+  display: inline-block;
+  margin-right: auto;
+  margin-left: auto;
+  float: none;
 }
 iframe.map{
   display: block;
   margin: auto;
   border-radius: 10px;
   margin-bottom: 80px;
+}*/
+.map {
+  width: 80%;
+  /*float: right;*/
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+  /*background-color: yellow;*/
+}
+.map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+div.col-lg-5.info{
+  border-left: 2px solid #b59ee2;
+}
+
+
+
+
+
+div.middle{
+  /*background-color: red;*/
+  min-height: 500px;
+  margin-top: 50px;
+  width: 70%;
+  display: block;
+  margin-top: 40px;
+}
+
+iframe#frame{
+  float: right;
+  margin-top: 40px;
+  /*width: 90%;
+  height: 90%;*/
+}
+
+div.middle h3{
+  font-size: 18px;
+  font-weight: bold;
+  color: #33383b;
+  /*margin-top: 20px;*/
+}
+
+div.middle p{
+  /*padding-top: 0;*/
+  font-size: 15px;
+  color: #33383b;
+}
+
+i#contact-icon{
+  font-size: 25px;
+  background-color: #8863d1;
+  color: white;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+  margin-left: 0;
+  margin-right: 2px;
+}
+
+div.middle a{
+  text-decoration: none;
+  color: #33383b;
+  font-size: 16px;
+  margin-left: 0;
+}
+
+
+.thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #292c2f;
+    border: 1px solid #5a5b5c;
+    border-radius: 4px;
+    -webkit-transition: border .1s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+
+a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
+    border-color: #f3ac7e;
 }
