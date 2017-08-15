@@ -586,4 +586,7 @@ a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
 
 a.thumbnail{
   color: red;
+  font: 25px;
+  text-decoration: none;
+  text-align: center;
 }
