@@ -414,7 +414,6 @@ i#footer-icons.fa.fa-globe:hover{
   color: #9f82da;
 }
 
-
 /* Make footer responsive */
 @media (max-width: 880px) {
 
@@ -429,7 +428,7 @@ i#footer-icons.fa.fa-globe:hover{
         width: 100%;
         margin-top: 30px;
         margin-bottom: 40px;
-        margin-left: 30%;
+        /*margin-left: 30%;*/
         margin-right: auto;
         text-align: left;
     }
@@ -437,9 +436,6 @@ i#footer-icons.fa.fa-globe:hover{
     .footer-distributed .footer-center i{
         margin-left: 0;
     }
-
-
-
 }
 
 @media (max-width: 600px){
@@ -511,14 +507,9 @@ div.col-lg-5.info{
   border-left: 2px solid #b59ee2;
 }
 
-
-
-
-
 div.middle{
   /*background-color: red;*/
   min-height: 500px;
-  margin-top: 50px;
   width: 70%;
   display: block;
   margin-top: 40px;
@@ -585,8 +576,22 @@ a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
 }
 
 a.thumbnail{
-  color: red;
-  font: 25px;
+  color: #33383b;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  /*font-weight: bold;*/
+  font-size: 25px;
   text-decoration: none;
   text-align: center;
+}
+
+div#about p{
+  font-size: 20px;
+  margin-top: 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 30px;
+  text-align: justify;
+  background-color: #b59ee2;
+  border-radius: 20px;
 }
