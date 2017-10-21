@@ -610,3 +610,11 @@ div#about p{
   font-size: 15px;
   margin-top: 16px;
 }
+
+img.mugshot {
+  width: 20%;
+  height: auto;
+  float: left;
+  padding-right: 15px;
+  display: list-item;
+}
