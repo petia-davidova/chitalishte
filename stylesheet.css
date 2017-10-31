@@ -618,3 +618,8 @@ img.mugshot {
   padding-right: 15px;
   display: list-item;
 }
+
+img.news{
+  max-width:100%;
+max-height:100%;
+}
